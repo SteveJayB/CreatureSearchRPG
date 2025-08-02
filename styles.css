@@ -1,0 +1,181 @@
+body {
+  background-color: #01143B;
+  color: white;
+  text-align: center;
+  min-width: 600px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: georgia;
+  padding-top: 300px;
+}
+
+#info {
+  background-color: rgba(91, 130, 222, .5);
+  width: 400px;
+  margin: auto;
+  border-radius: 20px;
+  height: 600px;
+}
+
+h2 {
+  font-size: 27px;
+  padding-top: 20px;
+}
+
+input {
+  width: 250px;
+  font-size: 25px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 10px;
+  border: none;
+}
+
+input:hover {
+  background-color: #E4E4E7;
+  cursor: pointer;
+}
+
+button {
+  background-color: #87D3FF;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #01143B;
+  color: white;
+  cursor: pointer;
+}
+
+#creature-info {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#creature-name {
+  font-size: 40px;
+  margin-right: 10px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#creature-id {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#weight-height, #abilities, #titles, #hp-info, #attack-info, #defense-info, #special-attack-info, #special-defense-info {
+  margin-bottom: 10px;
+}
+
+#weight {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+#height {
+  font-size: 20px;
+}
+
+#type-name {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#abilities {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+#abilities #types {
+  background-color: #A684FF;
+  color: #4D179A;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+}
+
+#titles {
+  font-size: 28px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #01143B;
+}
+
+#titles #base {
+  background-color: rgba(135, 211, 255, .5);
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 5px;
+}
+
+#titles #stats {
+  background-color: rgba(135, 211, 255, .5);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+#hp-title {
+  padding-left: 50px;
+}
+
+#hp {
+  padding-left: 143px;
+}
+
+#attack-title {
+  padding-left: 20px;
+}
+
+#attack {
+  padding-left: 115px;
+}
+
+#defense-title {
+  padding-left: 18px;
+}
+
+#defense {
+  padding-left: 105px;
+}
+
+#special-attack-title {
+  padding-right: 70px;
+}
+
+#special-attack {
+  padding-right: 28px;
+}
+
+#special-defense-title {
+  padding-right: 60px;
+}
+
+#special-defense {
+  padding-right: 30px;
+}
+
+#speed-title {
+  padding-left: 28px;
+}
+
+#speed {
+  padding-left: 125px;
+}
+
+
+#hp-info, #attack-info, #defense-info, #special-attack-info, #special-defense-info, #speed-info {
+  font-size: 22px;
+  border: 1px solid rgba(135, 211, 255, .75);
+  width: 360px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
